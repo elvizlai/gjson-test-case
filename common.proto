@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package api.common;
+
+option go_package = "xxx/main";
+
+message Id {
+  string id = 1 [json_name = "id"];
+}
